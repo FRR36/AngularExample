@@ -1,0 +1,21 @@
+<div *ngIf="view">
+    <br><br>
+    <h1 style="text-align: center">Este es la vista show</h1>
+    <h1>Valor: {{num}}</h1>
+
+    <button (click)="click()"> Aumentar Num</button>
+</div>
+<button (click)="change_view()"> Modificar vista</button>
+
+<div fxLayout="row" fxLayoutAlign="space-around center" >
+
+    <div fxFlex="30">
+
+    </div>
+
+    <div fxFlex="70">
+
+    </div>
+    
+
+</div>

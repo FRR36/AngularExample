@@ -1,0 +1,11 @@
+.card-container {
+    /*  not needed styles to reflect it */ 
+    background: black;//#202124
+    padding: 10px;
+    color: white;
+    /* needed styles below */
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+  }
+  
